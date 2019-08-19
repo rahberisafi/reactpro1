@@ -4,6 +4,8 @@ import React from 'react'
 //     return <h1>Hello Isafi</h1>
 // }
 
-export const Greet = () => <h1>Hello Isafi</h1>
+// export const Greet = () => <h1>Hello Isafi</h1>
 
-// export default Greet
+const Greet = () => <h1>Hello Isafi</h1>
+
+export default Greet
