@@ -11,9 +11,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <Counter />
+      <Greet name="Diana" heroName="Wonder Woman" />
+      <Greet name="Clark" heroName="Superman" />
+    {/* <Counter /> */}
     {/*  <Message /> */}
-      {/* <Greet name="Bruce" heroName="Batman">
+    {/* <Greet name="Bruce" heroName="Batman">
       <p>This is children props</p>
       </Greet>
       <Greet name="Clark" heroName="Superman">
